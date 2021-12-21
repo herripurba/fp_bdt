@@ -41,7 +41,7 @@ class HomeController extends Controller
             // Redis::connection('write')->set($user, $datas);
         } else {
             $datas = Transaksi::where('status', 'pinjam')->get();
-            Redis::connection('write')->set('admin', $datas);
+            // Redis::connection('write')->set('admin', $datas);
         }
         return view('home', compact('transaksi', 'anggota', 'buku', 'datas'));
     }
