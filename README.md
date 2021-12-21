@@ -1,3 +1,3 @@
 # fp_bdt
 
-![][arsitektur.jpg]
+![alt text](arsitektur.jpg)
